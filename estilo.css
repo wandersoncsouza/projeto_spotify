@@ -1,0 +1,24 @@
+/*
+*
+*@author Wanderson CS
+*@version 0.1
+ */
+
+ /* ========================= layout ========================== */
+
+ /* -- barra de navegação -- */
+ .img-logo{
+   height: 40px;
+   width: 132px;
+   display: block;
+   background: url('imagens/spotify.svg') no-repeat;
+   border: 1px solid red;
+   background-size: contain;
+   color: transparent;
+ }
+
+ nav .navbar-transparente{
+   background: red;
+ }
+
+ /* ======================= tipografia ======================== */

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Música para todos - Spotify</title>
+    <link rel="icon" href="imagens/favicon.png">
 
     <!-- Bootstrap -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -20,7 +21,40 @@
   </head>
   <body>
 
-    
+    <nav class="navbar navbar-fixed-top navbar-inverse">
+      <div class="container"> <!-- open container -->
+        <!-- header -->
+        <div class="navbar-header">
+
+          <!-- botao toggle -->
+          <button type="button" class="navbar-toggle collapsed"
+                  data-toggle="collapse" data-target="#barra-navegacao">
+            <span class="sr-only">alternar navegação</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- fim botao toggle -->
+
+          <!-- logo left -->
+          <a href="index.html" class="navbar-brand">
+            <span class="img-logo">Spotify</span>
+          </a>
+          <!-- end logo left -->
+        </div>
+        <!-- navbar -->
+        <div class="collapse navbar-collapse"  id="barra-navegacao">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="">Premium</a></li>
+            <li><a href="">Ajuda</a></li>
+            <li><a href="">Baixar</a></li>
+            <li><a href="">Inscrever-se</a></li>
+            <li><a href="">Entrar</a></li>
+          </ul>
+        </div>
+
+      </div> <!-- end container -->
+    </nav><!-- end navbar -->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
