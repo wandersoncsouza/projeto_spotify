@@ -5,6 +5,17 @@
  */
 
  /* ========================= layout ========================== */
+ html, body, .capa{
+  height: 100%;
+}
+
+ body {
+   background: url('imagens/capa.png'),
+               url('imagens/ruido.png'),
+               linear-gradient(50deg,#ff4169,#7c26f8);
+  background-attachment: fixed;
+  font-family: Helvetica, Arial, sans-serif;
+ }
 
  /* -- barra de navegação -- */
  .img-logo{
@@ -37,4 +48,18 @@
   color: #9bf0e1;
 }
 
+/* -- imagem de capa -- */
+.capa {
+  border: 1px solid red;
+}
+.texto-capa {
+  text-align: center;
+  color: #fff;
+}
+
+
  /* ======================= tipografia ======================== */
+h1 {
+  font-size: 100px;
+  font-weight: 900;
+}
