@@ -5,6 +5,17 @@
  */
 
  /* ========================= layout ========================== */
+ html, body, .capa{
+  height: 100%;
+}
+
+ body {
+   background: url('imagens/capa.png'),
+               url('imagens/ruido.png'),
+               linear-gradient(50deg,#ff4169,#7c26f8);
+  background-attachment: fixed;
+  font-family: Helvetica, Arial, sans-serif;
+ }
 
  /* -- barra de navegação -- */
  .img-logo{
@@ -12,13 +23,43 @@
    width: 132px;
    display: block;
    background: url('imagens/spotify.svg') no-repeat;
-   border: 1px solid red;
    background-size: contain;
    color: transparent;
  }
 
- nav .navbar-transparente{
-   background: red;
+ nav.navbar-transparente{
+   padding: 15px 0px;
+   background: rgba(0, 0, 0, 0.6);
+   border: none;
  }
+.navbar-brand{
+  padding: 5px 15px;
+}
+.divisor{
+  width: 1px;
+  height: 16px;
+  background: #fff;
+  margin: 16px 10px;
+}
+.navbar-inverse .navbar-nav>li>a {
+  color: #fff;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+  color: #9bf0e1;
+}
+
+/* -- imagem de capa -- */
+.capa {
+  border: 1px solid red;
+}
+.texto-capa {
+  text-align: center;
+  color: #fff;
+}
+
 
  /* ======================= tipografia ======================== */
+h1 {
+  font-size: 100px;
+  font-weight: 900;
+}
