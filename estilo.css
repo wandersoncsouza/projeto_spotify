@@ -50,11 +50,14 @@
 
 /* -- imagem de capa -- */
 .capa {
-  border: 1px solid red;
+  display: table;
+  width: 100%
 }
 .texto-capa {
   text-align: center;
   color: #fff;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 
@@ -62,4 +65,5 @@
 h1 {
   font-size: 100px;
   font-weight: 900;
+  letter-spacing: -0.05em;
 }
